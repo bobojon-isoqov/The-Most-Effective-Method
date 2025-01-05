@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Why do people fail to learn speaking in English in a short period?">
+    <title>Introduction - Problems</title>
+
+
+    <style>
+
+
+header {
+            background-color:  #fafafa;
+            box-shadow: 0 15px 10px rgba(20, 20, 20, 0.1);
+            padding: 40px 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 20px 65px;
+            max-width: 1300px;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-family: Georgia, 'Times New Roman';
+            font-size: 16px;
+            color: #fafafa;
+            margin: 0;
+        }
+
+        header::after {
+            content: '';
+            display: block;
+            width: 0%;
+            height: 2px;
+            background-color: #fafafa;
+            margin: 15px auto 0;
+        }
+
+
+
+        /* General Page Styles */
+        body {
+            font-family: Georgia, 'Times New Roman';
+            margin: 0;
+            padding: 0;
+            background-color: rgb(243, 234, 234);
+            color: #333;
+
+            position: relative; /* Required for positioning the button inside ( this is very important! 
+                                you just need to put this under any thing you want and the button will go there ) */
+        }
+
+        /* Menu Bar Styling */
+        .menu-container {
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            margin-top: 10px;
+            background-color: #f9f9f9;
+            padding: 5px 0;
+        }
+
+        .menu {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            margin: 0;
+        }
+
+        .menu li {
+            margin: 0 15px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .menu a:hover {
+            color: #fff;
+            background-color: #333;
+        }
+
+        /* Article Styling */
+        article {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 25px;
+            background-color: #fafafa;
+            box-shadow: 0 10px 10px rgba(20, 20, 20, 0.1);
+            border-radius: 20px;
+            transition: transform 0.2s ease;
+        
+        }
+        
+
+        h2 {
+            color: #333;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.8;   
+            margin-bottom: 20px;
+        }
+
+
+
+        /* Button Styling */
+        .next-button {
+            position: absolute; /* Position the button relative to the article */
+
+            /*  These two are for moving up and down /   */
+
+            bottom: 100px; /* 20px from the bottom / Moving up/ (For Moving DOWN just put ( - )*/ 
+            right: 160px; /* 20px from the right / For Moving Left increase the number*/ 
+
+
+            background-color: #fafafa; /* Blue background */
+            color: #000; /* White text color */
+            border: none; /* Remove border */
+            padding: 10px 20px; /* Padding inside the button */
+            border-radius: 10px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s ease; /* Smooth color transition */
+        }
+
+        .next-button:hover {
+            color: #fff;
+            background-color: #333;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            article {
+                padding: 15px;
+            }
+
+            .next-button {
+                font-size: 14px; /* Smaller font for smaller screens */
+                padding: 8px 15px; /* Adjust padding */
+            }
+        }
+
+
+
+        /* Footer Styling */
+        footer {
+            padding: 2px;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+
+        
+
+    </style>
+
+<style>
+    /* Styling for blockquotes */
+    blockquote {
+        font-size: 14px; /* Comfortable font size */
+        font-style:italic; /* Adds emphasis */
+        color: #555; /* Neutral gray text color for readability */
+        background-color: hwb(0 91% 7%); /* Light background for contrast */
+        border-left: 5px solid hsl(210, 1%, 55%); /* Blue accent border on the left */
+        padding: 15px 20px; /* Inner spacing for readability */
+        margin: 10px 10; /* Adds spacing above and below the blockquote */
+        border-radius: 5px; /* Rounded corners for a softer look */
+    }
+        
+    blockquote p {
+        margin: 0; /* Ensures proper alignment of text */
+    }
+    
+    blockquote footer {
+        font-size: 14px; /* Smaller font for attribution */
+        color: #777; /* Subtle gray color for footer text */
+        margin-top: 10px; /* Spacing above the footer */
+        text-align: right; /* Aligns the attribution to the right */
+    }
+
+
+</style>
+
+</head>
+
+<body>
+
+    
+    <header style="background-color: #fafafa; text-align: center; padding: 10px 10px;">
+        <h1 style="font-size: 36px; margin-bottom: 10px;">The Most Effective Method</h1>
+        <p style="font-size: 18px; color: #555;">Learn about the challenges and solutions for learning English effectively.</p>
+    </header>
+
+    <nav class="menu-container">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h2>The Problems</h2>                                   
+        <section>
+        <p>What is the main problem that the majority of people study English for a number of years but still they aren’t able to speak in English? Of the Indian students who approached me!</p>  
+        </section>
+        
+        <section>
+        <p>I know a lot of people who have studied English for 5 to 10 years, even 19 years but still they are not able to communicate in English! I know those who know tones of words, but still
+        have the same problem! I know professors who can’t speak!</p> 
+        </section>
+        
+        <h2>What are they are doing wrong? </h2>
+        
+        <h3>There are 4 Major Problems:</h3>
+        <ol>
+        <li>Not having a specific vision! (why and how much?)</li>
+        <li>Too much grammar and rules! </li>
+        <li>Too many useless words!</li>
+        <li>Laziness </li>
+        </ol>
+        <section>
+        <p>First point, they do not know specifically what they want and where they want to apply the skills! </p>
+        </section>
+        
+        <section>
+        <h3>The 1st Problem: Not having a specific vision!</h3>
+        
+        <blockquote>As Seneca wrote, “If a man knows not to which port he sails, no wind is favorable.”</blockquote>
+        <p>So the question is, why do you want to study a skill and where you specifically will apply that skill!</p>
+        
+        <p>For instance, if you want to study english only for selling cars and you won’t need it in any place else. Then we can find the method for you to learn that much maximum in one week. How I used the Uzbek language. </p>
+        </section>
+        
+        <section>
+        
+        <h3>The second Problem: Too many grammars and rules (Too much focus on those)</h3>
+        
+        
+        <p>This issue is related to the way our English books are put together. I have studied a lot of English grammar books and methods. The majority of them have the same problems. And our teachers teach whatever there is in the books, or they teach the way they have been taught, thus we come to learn too many grammars  and rules which are not necessary to our needs. Why should the teachers bother, when they won’t be rewarded for their effort.</p>
+        
+        </section>
+        
+        <section>
+        <h3>The third Problem:  Too many useless words. </h3>
+        
+        <p>This problem is also related to the prior mentioned reason. And furthermore, the impact of our way or perception of our needs.</p>  
+        </section>
+        
+        <section>
+        
+        <h3>The last Problem:  People’s laziness or lack of discipline.</h3>
+        
+        <p>Somewhere 90% of people are lazy. They have the potential for greatness but they waste this potential because of their laziness.</p> 
+        </section>
+        
+        <section>
+            <blockquote>Know that, to reach a goal just having motivation is not enough, for where discipline takes you motivation can’t. Discipline is when you do it even if you don't want to.</blockquote>    
+            
+            <blockquote>Lazzy people do a little work and think they should be winning, but winners work as hard as possible and still worry if they are being lazy.</blockquote>
+        
+            <blockquote>Those who want, will find a way, and those who don’t want, will find excuses</blockquote>
+        
+            <blockquote>Success is not an accident. It’s hard work, perseverance, learning, studying, sacrifice, and most of all love of what you are doing or learning to do.  Pele</blockquote>
+    
+            <blockquote>Everyone wants to be Cristiano Ronaldo, but I will give you the map. You think you Will be able to do it? It's very difficult, you need discipline and consistency. You are not willing to
+         do something, but you have to do it. Of course, I don't like going to the gym everyday, but I have to. Cristiano Ronaldo</blockquote>
+        </section>  
+        
+        <a href="next-page.html" class="next-button">Next</a>
+        
+     </article>
+
+    <footer>
+        <p>© 2025 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
